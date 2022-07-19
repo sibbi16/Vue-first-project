@@ -1,0 +1,27 @@
+#app{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+}
+button{
+   padding: 10px 20px;
+   background: #000;
+   border: #000;
+   color: #fff;
+   border-radius: 8px;
+   cursor: pointer;
+}
+img{
+   border-radius: 50%;
+   border: 6px solid black;
+}
+.male{
+   border-color: steelblue;
+   background-color: steelblue;
+}
+.female{
+   border-color: pink;
+   background-color: pink;
+}
